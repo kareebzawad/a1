@@ -79,3 +79,37 @@ nav li a{
   justify-items: center;
 }
 
+/* main style */
+.main{
+  max-width: 1140px;
+  margin: 0px auto;
+}
+
+/* see it in action */
+
+.section-title{
+  font-size: 42px;
+  font-weight: bold;
+  color: #252432;
+}
+
+
+.see-it-in-action-div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.see-it-in-action-img{
+  border-radius: 48px;
+}
+
+.see-it-in-action-p{
+  font-size: 24px;
+  color: #252432;
+  opacity: 50%;
+}
+
+.see-it-in-action-content{
+  max-width: 517px;
+}
