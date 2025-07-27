@@ -216,3 +216,45 @@ nav li a{
   display: flex;
   justify-content: space-around;
 }
+
+/* Ready-to-focus-better */
+
+.Ready-to-focus-better{
+  max-width: 1140px;
+  margin-top: 130px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  border-radius: 14px;
+  padding: 71px 100px;
+}
+
+
+.Ready-to-focus-better-title{
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.Ready-to-focus-better-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto; 
+  max-width: 840px;
+  border-radius: 48px;
+}
+
+
+.Ready-to-focus-better-btn{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Ready-to-focus-better-title{
+  margin: 0px;
+}
+
+.Ready-to-focus-better-p{
+  margin-top: 15px;
+  color: rgba(0, 0, 0, 0.66);
+}
