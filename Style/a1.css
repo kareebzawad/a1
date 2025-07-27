@@ -39,7 +39,7 @@ nav{
 
 
 
-.btn-primary{
+.btn-primary {
   background-color: #4E47FF;
   font-weight: 700;
   color: white;
@@ -47,7 +47,17 @@ nav{
   padding: 12px 36px;
   border-radius: 10px;
   border: none;
+  transition: background-color 0.3s, color 0.3s, transform 0.3s, box-shadow 0.3s;
 }
+
+.btn-primary:hover {
+  background-color: #FFD700; 
+  color: black;
+  transform: scale(1.05);
+  box-shadow: 0 0 20px 5px rgba(255, 215, 0, 0.6);
+}
+
+
 
 .nav-title{
   font-weight: 900;
@@ -333,6 +343,10 @@ nav li a{
 }
 
 .footer-p{
+  color: rgba(0, 0, 0, 0.53);
+}
+
+.footer-li{
   color: rgba(0, 0, 0, 0.507);
 }
 
@@ -342,4 +356,8 @@ nav li a{
   max-width: 400px;
   margin-left: auto;
   margin-right: auto;
+}
+
+footer ul li{
+  list-style: none;
 }
