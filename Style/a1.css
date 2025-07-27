@@ -14,6 +14,11 @@
   font-style: normal;
 }
 
+
+.text-center{
+  text-align: center;
+}
+
 /* body styles */
 .body-bg{
   background-color: hsla(242, 100%, 64%, 0.05);
@@ -148,4 +153,66 @@ nav li a{
   font-weight: 400;
   color: hsla(0, 0%, 0%, 0.5);
   margin: 0px;
+}
+
+
+/* What-our-users-say */
+
+.What-our-users-say{
+  margin-top: 130px;
+}
+
+.review-box{
+  background-color: rgba(255, 255, 255, 0.66);
+  border-radius: 14px;
+  max-width: 366.67px;
+}
+
+.box-contents{
+  padding: 24px;
+}
+
+.avatar{
+  border-radius: 9999px;
+  max-width: 40px;
+  max-height: 40px;
+  margin-right: 12px;
+}
+
+.reviewer-details{
+  display: flex;
+  align-items: center;
+}
+
+.Reviewer-name{
+  margin: 0px;
+  padding: 0px;
+  color: rgba(0, 0, 0, 0.632);
+  font-size: medium;
+}
+
+.date{
+  margin: 0px;
+  padding: 0px;
+  font-size: small;
+  color: hsla(0, 0%, 0%, 0.468);
+}
+
+.review-description{
+  margin-top: 8px;
+  padding: 0px;
+}
+
+.review-title{
+  margin: 0px;
+}
+
+.review-content{
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.reviews-container{
+  display: flex;
+  justify-content: space-around;
 }
