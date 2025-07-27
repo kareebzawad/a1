@@ -258,3 +258,43 @@ nav li a{
   margin-top: 15px;
   color: rgba(0, 0, 0, 0.66);
 }
+
+
+/* Lets-Get-in-Touch */
+
+.Lets-Get-in-Touch{
+  margin-top: 130px;
+}
+
+.Lets-Get-in-Touch-contents{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Lets-Get-in-Touch-title{
+  margin-top: 130px;
+  font-size: 98px;
+  font-weight: bold;
+}
+
+.input-field{
+  display: block;
+  width: 497px;
+  background-color: white;
+  border-radius: 10px;
+  border-color: #D6DDED;
+  border-width: 1px;
+  padding: 32px 20px;
+  margin-bottom: 20px;
+}
+
+.input-title{
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.btn-form{
+  width: 540px;
+  height: 60px;
+}
